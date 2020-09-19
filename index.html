@@ -22,6 +22,13 @@
 			font-weight: normal;
 			font-style: normal;
 		}
+			
+		@font-face {
+			font-family: 'sevensd';
+			src: url("/assets/fonts/seven-segment.woff");
+			font-weight: normal;
+			font-style: normal;
+		}
 
 		body{
 			margin: 0px;
@@ -54,7 +61,7 @@
 		#c{
 			color: green;
 			display: none;
-			font-family: 'doomregular';
+			font-family: 'sevensd';
 			font-size: 24px;
 			pointer-events: none; user-select: none;
 			position: absolute; top: 0px;
@@ -72,6 +79,7 @@
 
 		#f{
 			margin: 20%;
+			font-family: 'doomregular';
 		}
 
 		#health, #shells{
